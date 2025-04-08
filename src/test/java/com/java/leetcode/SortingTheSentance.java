@@ -1,6 +1,7 @@
 package com.java.leetcode;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class SortingTheSentance {
@@ -34,7 +35,7 @@ public class SortingTheSentance {
 				return "";
 		}
 		String[] words = input.split(" ");
-		ArrayList<String> wordsWithCorrectPosition = new ArrayList<>(List.of(words));
+		ArrayList<String> wordsWithCorrectPosition = new ArrayList<>(Arrays.asList(words));
 
 		for (String word:words) {
 
