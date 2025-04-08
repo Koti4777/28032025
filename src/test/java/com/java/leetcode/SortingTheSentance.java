@@ -2,7 +2,6 @@ package com.java.leetcode;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class SortingTheSentance {
 
@@ -10,11 +9,11 @@ public class SortingTheSentance {
 		// TODO Auto-generated method stub
 
 		String input = "is2 sentence4 This1 a3";
-		System.out.println("With Array---"+sortSentance(input));
-		System.out.println("With ArrayList---"+sortSentanceWithArrayList(input));
+		System.out.println("With Array---"+sortSentence(input));
+		System.out.println("With ArrayList---"+ sortSentenceWithArrayList(input));
 	}
 
-	public static String sortSentance (String input){
+	public static String sortSentence (String input){
 		if (input==null || input.trim().isEmpty()){
 				return "";
 		}
@@ -30,7 +29,7 @@ public class SortingTheSentance {
         return String.join(" ", wordsWithCorrectPosition);
 	}
 	
-	public static String sortSentanceWithArrayList (String input){
+	public static String sortSentenceWithArrayList(String input){
 		if (input==null || input.trim().isEmpty()){
 				return "";
 		}
