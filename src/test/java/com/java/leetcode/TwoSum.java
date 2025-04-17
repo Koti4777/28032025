@@ -23,11 +23,11 @@ public class TwoSum {
 			
 			int complement = target-input[i];
 			
-			if (arrayMap.containsKey(complement)) {
+			if (arrayMap.containsKey(complement)) {// checking if the pair is present in map if present returning the both the values
 				return new int[] {arrayMap.get(complement), i};
 			}
 			
-			arrayMap.put(input[i], i);
+			arrayMap.put(input[i], i); // if the pair not present adding value to map for further loop
 		}
 		throw new IllegalArgumentException("No two sum solution");
 	}

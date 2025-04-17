@@ -1,0 +1,7 @@
+Opportunity Amount
+Implementation effort without buffer
+Implementation duration
+Service billing cost
+Service billing revenue
+License fee
+fixed Fee
